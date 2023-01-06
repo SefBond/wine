@@ -214,11 +214,11 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   padding: 1em 2.1em;
-}
-.button a:hover {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+.button a:hover {
   background-color: #baa332;
   -webkit-box-shadow: 5px 5px 15px rgba(29, 29, 29, 0.71);
           box-shadow: 5px 5px 15px rgba(29, 29, 29, 0.71);
@@ -227,7 +227,7 @@ body {
   -webkit-transform: translate(2px, 2px);
       -ms-transform: translate(2px, 2px);
           transform: translate(2px, 2px);
-  background-color: #e9cd42;
+  background: #e9cd42;
 }
 
 .about {
@@ -507,7 +507,7 @@ body {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #baa332;
+  background-color: #998431;
   -webkit-box-shadow: 5px 5px 15px rgba(103, 103, 103, 0.71);
           box-shadow: 5px 5px 15px rgba(103, 103, 103, 0.71);
   cursor: pointer;
