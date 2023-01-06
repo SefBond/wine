@@ -68,6 +68,9 @@ body {
     padding: 0.82em 0;
     text-align: center;
 
+    &:hover {
+      text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+    }
 
 
   }
@@ -95,6 +98,11 @@ body {
     font-size: 0.93em;
     line-height: 1.4em;
     z-index: 1;
+
+    &:hover {
+      text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+      cursor: pointer;
+    }
   }
 }
 
@@ -109,6 +117,21 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   padding: 1em 2.1em;
+  transition: all 0.3s ease-in-out;
+
+
+
+  &:hover {
+    background-color: #baa332;
+    box-shadow: 5px 5px 15px rgba(29, 29, 29, 0.71);
+  }
+
+  &:active {
+    transform: translate(2px, 2px);
+    background: #e9cd42;
+
+  }
+
 }
 
 .about {
@@ -391,6 +414,7 @@ body {
       /* Internet Explorer 10+ */
       color: #fff;
     }
+
   }
 
   &__name {
@@ -414,6 +438,17 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.5em;
     line-height: 1.5em;
+
+    &:hover {
+      transition: all 0.3s ease-in-out;
+      background-color: #baa332;
+      box-shadow: 5px 5px 15px rgba(103, 103, 103, 0.71);
+      cursor: pointer;
+    }
+
+    &:active {
+      transform: translate(2px, 2px);
+    }
   }
 }
 
@@ -458,6 +493,11 @@ body {
     padding: 0.82em 0;
     text-align: center;
 
+    &:hover {
+      text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+      cursor: pointer;
+    }
+
   }
 
   &__more {
@@ -474,6 +514,12 @@ body {
     width: 25%;
     border: 1px solid #fff;
     border-left: 0;
+
+    &:hover {
+      text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+      cursor: pointer;
+    }
+
   }
 
   &__tel {
@@ -481,6 +527,12 @@ body {
     padding: 1.2em 0;
     width: 25%;
     border: 1px solid #fff;
+
+    &:hover {
+      text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+      cursor: pointer;
+    }
+
   }
 
   &__media {
@@ -490,6 +542,16 @@ body {
     border: 1px solid #fff;
     display: flex;
     justify-content: space-evenly;
+
+
+  }
+
+  &__icon {
+    &:hover {
+      box-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+      cursor: pointer;
+    }
+
   }
 
   &__web {
@@ -499,5 +561,12 @@ body {
     border: 1px solid #fff;
     border-right: 0;
     text-transform: uppercase;
+
+    &:hover {
+      text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+      cursor: pointer;
+    }
+
   }
+
 }

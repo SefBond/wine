@@ -173,6 +173,9 @@ body {
   padding: 0.82em 0;
   text-align: center;
 }
+.header__link:hover {
+  text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+}
 .header .end {
   border-right: none;
 }
@@ -196,6 +199,10 @@ body {
   line-height: 1.4em;
   z-index: 1;
 }
+.data__contact:hover {
+  text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+  cursor: pointer;
+}
 
 .button a {
   display: inline-block;
@@ -207,6 +214,20 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   padding: 1em 2.1em;
+}
+.button a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #baa332;
+  -webkit-box-shadow: 5px 5px 15px rgba(29, 29, 29, 0.71);
+          box-shadow: 5px 5px 15px rgba(29, 29, 29, 0.71);
+}
+.button a:active {
+  -webkit-transform: translate(2px, 2px);
+      -ms-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+  background-color: #e9cd42;
 }
 
 .about {
@@ -482,6 +503,20 @@ body {
   letter-spacing: 0.5em;
   line-height: 1.5em;
 }
+.contact__button:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #baa332;
+  -webkit-box-shadow: 5px 5px 15px rgba(103, 103, 103, 0.71);
+          box-shadow: 5px 5px 15px rgba(103, 103, 103, 0.71);
+  cursor: pointer;
+}
+.contact__button:active {
+  -webkit-transform: translate(2px, 2px);
+      -ms-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+}
 
 .footer {
   background-color: #998431;
@@ -529,6 +564,10 @@ body {
   padding: 0.82em 0;
   text-align: center;
 }
+.footer__link:hover {
+  text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+  cursor: pointer;
+}
 .footer__more {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -544,11 +583,19 @@ body {
   border: 1px solid #fff;
   border-left: 0;
 }
+.footer__boutique:hover {
+  text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+  cursor: pointer;
+}
 .footer__tel {
   text-align: center;
   padding: 1.2em 0;
   width: 25%;
   border: 1px solid #fff;
+}
+.footer__tel:hover {
+  text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+  cursor: pointer;
 }
 .footer__media {
   text-align: center;
@@ -562,6 +609,11 @@ body {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
+.footer__icon:hover {
+  -webkit-box-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+          box-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+  cursor: pointer;
+}
 .footer__web {
   text-align: center;
   padding: 1.2em 0;
@@ -569,4 +621,8 @@ body {
   border: 1px solid #fff;
   border-right: 0;
   text-transform: uppercase;
+}
+.footer__web:hover {
+  text-shadow: 2px -2px 5px rgba(255, 255, 255, 0.281);
+  cursor: pointer;
 }
